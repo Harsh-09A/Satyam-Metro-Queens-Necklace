@@ -272,7 +272,7 @@ Images Size
 
 /* About */
 #about_section {
-  background: url("../img/backgrounds/aboutgroup.webp");
+  background: url("../img/backgrounds/aboutgroup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 970px; */
@@ -308,5 +308,105 @@ Images Size
   .about-para-container {
     padding: 2em !important;
     padding-top: 2em;
+  }
+}
+
+/* Footer */
+#footer {
+  background-color: var(--colorBlack);
+  padding: 40px 20px;
+}
+.qrcode {
+  text-align: center;
+  margin: 10px 20px;
+  color: var(--colorWhite);
+}
+
+.qrcode img {
+  /* display: block;
+  margin: auto; */
+  width: 100px;
+  /* margin-bottom: 10px; */
+}
+
+@media screen and (min-width: 990px) {
+  .navbar-nav {
+    justify-content: flex-end;
+  }
+}
+
+/* Action Footer */
+.action-footer-container {
+  margin: 0;
+  padding: 0;
+}
+.action-footer {
+  margin: 0;
+  padding: 7px;
+  background-color: var(--colorPrimary);
+  color: var(--colorWhite);
+  cursor: pointer;
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  font-size: 0.8em;
+}
+
+.action-footer li {
+  border-left: 1px solid var(--colorBlack);
+}
+
+.action-footer li:first-child {
+  border-left: none !important;
+}
+/* For Desktop */
+@media only screen and (min-width: 990px) {
+  .action-footer {
+    display: none;
+  }
+}
+
+/* Tab Buttons */
+.tab-buttons li {
+  width: 18em;
+}
+@media screen and (max-width: 600px) {
+  .tab-buttons {
+    justify-content: center;
+  }
+  .tab-buttons li {
+    width: 90vw;
+  }
+}
+
+/* Modal */
+
+/* ----------------------------------------------------------- */
+/* Thank You Page */
+
+#thanku_section {
+  margin-top: 5em !important;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thanku_section h2 {
+  font-family: MyCustomFont;
+  letter-spacing: 0.1em;
+  font-size: 5em;
+}
+
+#thanku_section p {
+  font-size: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  #thanku_section h2 {
+    font-size: 2.3em;
+  }
+  #thanku_section p {
+    padding: 0 1.2em;
+    font-size: 0.8em;
   }
 }
