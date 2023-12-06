@@ -63,6 +63,37 @@ html {
   }
 }
 
+/* Common  */
+#gallery_section .nav > li > a,
+#amenities_section .nav > li > a,
+#walkthrough_section .nav > li > a {
+  background: var(--colorWhite);
+  color: var(--colorPrimary) !important;
+  border-radius: 60px;
+  text-align: center;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0.5px solid var(--colorBorderWhite);
+  border-radius: 60px;
+  box-shadow: 0 4px 8px 0 var(--colorBackgroundOverlay);
+  margin: 10px;
+}
+
+#gallery_section .nav > li > a:hover,
+#gallery_section .nav > li > a:focus,
+#gallery_section .nav .active,
+#amenities_section .nav > li > a:hover,
+#amenities_section .nav > li > a:focus,
+#amenities_section .nav .active,
+#walkthrough_section .nav > li > a:hover,
+#walkthrough_section .nav > li > a:focus,
+#walkthrough_section .nav .active {
+  background: var(--colorSecondary);
+  color: var(--colorWhite) !important;
+}
+
 /* Navbar Section */
 
 .navbar-nav {
@@ -217,6 +248,16 @@ Images Size
   color: var(--colorWhite);
 }
 
+/* Gallery */
+.gal-img {
+  width: 300px !important;
+}
+.gal-img img {
+  width: 300px !important;
+  height: 200px;
+  object-fit: cover;
+}
+
 /* Configuration */
 
 .config-inner {
@@ -257,6 +298,7 @@ Images Size
   font-size: 18px;
   font-weight: 600;
   margin-top: 5px;
+  text-transform: uppercase;
 }
 
 .near-location ul {
@@ -264,6 +306,11 @@ Images Size
   font-size: 14px;
   /* font-weight: 200; */
 }
+
+.near-location ul li {
+  line-height: 1.8em;
+}
+
 @media screen and (max-width: 600px) {
   .locations-left {
     margin-top: 2em;
@@ -283,6 +330,9 @@ Images Size
   background: var(--colorBackgroundOverlay);
   /* height: 970px; */
   padding: 0;
+}
+#about_section .sub-heading {
+  color: var(--colorPrimary);
 }
 
 .form-label {
