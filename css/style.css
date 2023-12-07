@@ -216,6 +216,9 @@ Images Size
 .features-inner ul {
   padding-left: 13px;
 }
+.features-inner h4 {
+  text-transform: uppercase;
+}
 .ame-copy {
   text-align: center;
   font-size: 18px !important;
