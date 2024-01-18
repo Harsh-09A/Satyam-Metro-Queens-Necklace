@@ -24,7 +24,7 @@ const handleFormSubmit = async (formId, nameField, emailField, phoneField) => {
     contact_number: document.getElementById(phoneField).value,
     ip_address: await getIpAddress(),
 
-    to_email: "destinyrealestates@gmail.com",
+    to_email: "kavitagads@gmail.com",
     company_name: "Satyam Queen Necklace",
   };
 
