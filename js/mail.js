@@ -1,6 +1,6 @@
 (function () {
-  // emailjs.init("to9PlFrMMimgruuH0");
-  emailjs.init("BnRoAjGd5ec2E2VQn");
+  emailjs.init("to9PlFrMMimgruuH0");
+  // emailjs.init("BnRoAjGd5ec2E2VQn");
 })();
 
 // Get IP Address
@@ -31,8 +31,7 @@ const handleFormSubmit = async (
     privacy_check: document.getElementById(privacyField).value,
     ip_address: await getIpAddress(),
 
-    // to_email: "kavitagads@gmail.com",
-    to_email: "harsh.autowebbed@gmail.com",
+    to_email: "kavitagads@gmail.com",
     company_name: "Sai World Empire",
   };
 
